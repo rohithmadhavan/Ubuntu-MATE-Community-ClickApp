@@ -1,0 +1,15 @@
+{
+    "name": "ubuntu-mate-community.rohithmadhavan",
+    "description": "Web app for the Ubuntu MATE Community page",
+    "architecture": "all",
+    "title": "Ubuntu MATE Community",
+    "hooks": {
+        "Ubuntu-MATE-Community": {
+            "apparmor": "Ubuntu-MATE-Community.apparmor",
+            "desktop": "Ubuntu-MATE-Community.desktop"
+        }
+    },
+    "version": "1.0",
+    "maintainer": "Rohith Madhavan <rohithmadhavan@gmail.com>",
+    "framework": "ubuntu-sdk-15.04"
+}

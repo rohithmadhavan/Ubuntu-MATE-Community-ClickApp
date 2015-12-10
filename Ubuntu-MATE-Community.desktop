@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Ubuntu MATE Community
+Comment=Web app for the Ubuntu MATE Community page
+Type=Application
+Icon=Ubuntu-MATE-Community.png
+Exec=webapp-container --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://ubuntu-mate.community/* http://ubuntu-mate.community %u
+Terminal=false
+X-Ubuntu-Touch=true
+
